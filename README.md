@@ -22,3 +22,24 @@ This project implements a serverless image processing pipeline using AWS service
 5. SNS sends notification email
 
 ## 📂 Project Structure
+cloud-image-pipeline/
+│
+├── src/
+│   └── main/
+│       └── java/
+│           └── com/
+│               └── aws/
+│                   └── image/
+│                       └── ImageProcessor.java
+│
+├── pom.xml
+├── .gitignore
+├── README.md
+
+## 📌 Future Improvements
+- Add image filters
+- Support multiple formats
+- Add web interface
+
+## 👨‍💻 Author
+Gowtham Nannapaneni
